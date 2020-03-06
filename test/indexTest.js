@@ -57,11 +57,11 @@ describe( "Square", () => {
     expect( square.perimeter ).to.eq( 20 )
   } )
 
-  it( "calculates the area", () => {
-    let square = new Square( [ 5, 5, 5, 5 ] )
+  // it( "calculates the area", () => {
+  //   let square = new Square( [ 5, 5, 5, 5 ] )
 
-    expect( square.area ).to.eq( 25 )
-  } )
+  //   expect( square.area ).to.eq( 25 )
+  // } )
 
   it( "checks for valid square", () => {
     let square = new Square( [ 5, 5, 5, 5 ] )
